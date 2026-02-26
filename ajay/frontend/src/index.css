@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  @apply bg-cream text-gray-900 transition-colors duration-300 ease-out;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+#root {
+  width: 100%;
+}
